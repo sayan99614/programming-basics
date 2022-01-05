@@ -14,7 +14,7 @@ int main(){
 	for(int i=n/2;i<n;i++){
 		s+=(to_string(arr[i])[to_string(arr[i]).length()-1]);
 	}
-
+	// I am modifing the file 
 	if(stoi(s)%11==0){
 		cout<<"OUI";
 	}else{
